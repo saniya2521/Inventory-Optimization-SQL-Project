@@ -26,7 +26,7 @@ SQL project analyzing warehouse inventory data to optimize stock levels and impr
 ## 5. Resume-Ready Highlight 
 * Designed and executed SQL queries to analyze inventory distribution , sales trends , and warehouse efficiency . Deliver actionable inventory reduction , supported by query outputs and business insights .*
 
-## 6. Sample Query 
+  ## 6. Sample Query 
 ```sql
 - Identify slow-moving products
 SELECT product_id , product_name , SUM(quantity) AS total_sold
@@ -41,6 +41,8 @@ ORDER BY total_sold ASC;  ```
 - Bundle slow-moving products with popular items to increase turnover.
 - Offer discounts on aging inventory to free up warehouse space.
 - Use productive analytics to forecast seasonal demand more accurately.
+
+
 
 
 
