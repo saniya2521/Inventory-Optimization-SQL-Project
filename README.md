@@ -1,32 +1,32 @@
 # Inventory-Optimization-SQL-Project
 Data analytics project using SQL to evaluate warehouse efficiency , identify slow-moving products , and recommend inventory optimization strategies 
 
-## Overview 
+## 1. Overview 
 SQL project analyzing warehouse inventory data to optimize stock levels and improve efficiency.
 
-## Tools and Technologies 
+## 2. Tools and Technologies 
 - SQL (Joins , Subqueries , Aggregations)
 - MySQL Workkbench
 - Excel 
 - Power BI
 
-## Project Structure 
+## 3. Project Structure 
 - exploration.sql   
 - analysis.sql
 - strategic_analysis.sql
 - results 
 - README.md 
 
-## Key Insights 
+## 4. Key Insights 
 - Inventory distribution across warehouse 
 - Identification of slow-moving products 
 - Sales trend analysis 
 - Strategic analysis and optimization
 
-## Resume-Ready Highlight 
+## 5. Resume-Ready Highlight 
 * Designed and executed SQL queries to analyze inventory distribution , sales trends , and warehouse efficiency . Deliver actionable inventory reduction , supported by query outputs and business insights .*
 
-## Sample Query 
+## 6. Sample Query 
 ```sql
 - Identify slow-moving products
 SELECT product_id , product_name , SUM(quantity) AS total_sold
@@ -35,7 +35,7 @@ GROUP BY product_id , product_name
 HAVING SUM(quantity) < 50
 ORDER BY total_sold ASC;  ```
 
-## Results and Recommendations
+## 7. Results and Recommendations
 - Warehouse B shows redundant inventory with low turnover.
 - Reallocate fast-moving products from Warehouse B to Warehouse A and C.
 - Bundle slow-moving products with popular items to increase turnover.
