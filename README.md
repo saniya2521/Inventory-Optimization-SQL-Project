@@ -34,7 +34,11 @@ SQL project analyzing warehouse inventory data to optimize stock levels and impr
 - Offer discounts on aging inventory to free up warehouse space.
 - Use productive analytics to forecast seasonal demand more accurately.
 
-## 7. Sample Query 
+
+## 7. Sales and Inventory Dashboard Screenshot.
+[image alt] (image_url) https://github.com/saniya2521/Inventory-Optimization-SQL-Project/blob/a09f142a22e12ab8d17ad6ed047666d013c0d7d5/sales%20and%20inventory.png
+
+## 8. Sample Query 
 ```sql
 - Identify slow-moving products
 SELECT product_id , product_name , SUM(quantity) AS total_sold
@@ -43,8 +47,7 @@ GROUP BY product_id , product_name
 HAVING SUM(quantity) < 50
 ORDER BY total_sold ASC;  ```
 
-## 8. Sales and Inventory Dashboard Screenshot.
-[image alt] (image_url) https://github.com/saniya2521/Inventory-Optimization-SQL-Project/blob/a09f142a22e12ab8d17ad6ed047666d013c0d7d5/sales%20and%20inventory.png
+
 
   
 
