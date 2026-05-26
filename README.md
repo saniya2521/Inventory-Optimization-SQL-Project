@@ -57,13 +57,17 @@ The dashboard highlights strong performers like the Ferrari 360 Spider, seasonal
 ## 8. Sample Query 
 ```sql
 - Identify slow-moving products
-SELECT product_id , product_name , SUM(quantity) AS total_sold
-FROM sales
-GROUP BY product_id , product_name
-HAVING SUM(quantity) < 50
-ORDER BY total_sold ASC;  ````
-
-
+SELECT 
+    p.productCode,
+    p.productName,
+    SUM(od.quantityOrdered) AS total_sold
+FROM products p
+JOIN orderdetails od ON p.productCode = od.productCode
+GROUP BY p.productCode, p.productName
+HAVING SUM(od.quantityOrdered) < 5000
+ORDER BY total_sold ASC; ```
+Result:  
+This query highlights products with fewer than 5000 units sold, flagging them as slow movers. These insights support inventory reduction strategies such as discounting, bundling with popular items, or reallocation across warehouses.
 
   
 
