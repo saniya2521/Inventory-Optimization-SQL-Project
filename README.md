@@ -42,6 +42,7 @@ ORDER BY total_sold ASC;  ```
 - Offer discounts on aging inventory to free up warehouse space.
 - Use productive analytics to forecast seasonal demand more accurately.
 
+## 8. Sales and Inventory Dashboard Screenshot
 
 
 
