@@ -43,6 +43,7 @@ ORDER BY total_sold ASC;  ```
 - Use productive analytics to forecast seasonal demand more accurately.
 
 ## 8. Sales and Inventory Dashboard Screenshot
+https://github.com/saniya2521/Inventory-Optimization-SQL-Project/blob/main/sales%20and%20inventory.png
 
 
 
