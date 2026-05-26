@@ -61,7 +61,7 @@ SELECT product_id , product_name , SUM(quantity) AS total_sold
 FROM sales
 GROUP BY product_id , product_name
 HAVING SUM(quantity) < 50
-ORDER BY total_sold ASC;  ```
+ORDER BY total_sold ASC;  ````
 
 
 
