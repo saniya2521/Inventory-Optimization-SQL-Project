@@ -26,7 +26,6 @@ SQL project analyzing warehouse inventory data to optimize stock levels and impr
 ## 5. Resume-Ready Highlight 
 * Designed and executed SQL queries to analyze inventory distribution , sales trends , and warehouse efficiency . Deliver actionable inventory reduction , supported by query outputs and business insights .*
 
-
 ## 6. Results and recommendations 
 - Warehouse B shows redundant inventory with low turnover.
 - Reallocate fast-moving products from Warehouse B to Warehouse A and C.
@@ -34,9 +33,26 @@ SQL project analyzing warehouse inventory data to optimize stock levels and impr
 - Offer discounts on aging inventory to free up warehouse space.
 - Use productive analytics to forecast seasonal demand more accurately.
 
-
 ## 7. Sales and Inventory Dashboard Screenshot.
 [image alt] (image_url) https://github.com/saniya2521/Inventory-Optimization-SQL-Project/blob/a09f142a22e12ab8d17ad6ed047666d013c0d7d5/sales%20and%20inventory.png
+
+## 📊 Results & Recommendations
+
+### Results
+- Total Customers: 122
+- Total Orders: 326
+- Total Products Sold: 106K
+- Total Revenue: 9.60M
+- Sales Peak: 717 units in a single order
+
+### Recommendations
+- Promote top sellers (Ferrari 360 Spider, Harley Davidson Utility).
+- Discount or bundle slow movers (Jaguar XK 120, Lancia Delta).
+- Monitor seasonal demand peaks (Q4 2004).
+- Balance stock vs sales to reduce holding costs.
+
+**Findings:**  
+The dashboard highlights strong performers like the Ferrari 360 Spider, seasonal peaks in late 2004, and clear gaps between inventory and sales for certain models. These insights support targeted promotions, inventory adjustments, and seasonal planning.
 
 ## 8. Sample Query 
 ```sql
