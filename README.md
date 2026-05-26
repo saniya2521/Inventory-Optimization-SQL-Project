@@ -44,6 +44,7 @@ HAVING SUM(quantity) < 50
 ORDER BY total_sold ASC;  ```
 
 ## 8. Sales and Inventory Dashboard Screenshot.
+[image alt] (image_url) https://github.com/saniya2521/Inventory-Optimization-SQL-Project/blob/a09f142a22e12ab8d17ad6ed047666d013c0d7d5/sales%20and%20inventory.png
 
   
 
